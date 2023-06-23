@@ -18,6 +18,10 @@ Since some of the input features are categorical variables, we used label encodi
 
 To evaluate the performance of our models, we split the data into training and testing sets using a randomization technique. We used a 65-35 split, where 65% of the data was used for training and 35% for testing.
 
+## PCA
+
+Dimensionality reduction
+
 ## Logistic Regression Model
 
 We built a logistic regression model to predict the probability of a client subscribing to a term deposit. We used the scikit-learn library to fit the model to the training data and evaluated its performance on the testing data using various metrics, such as accuracy, precision, recall, and F1 score.
